@@ -452,38 +452,27 @@ The purpose of the data dictionary is to explain what each column represents.
 
 For example:
 
-Column	Description
-ID	Unique customer identifier
-Year_Birth	Customer's birth year
-Age	Customer age calculated from birth year
-Education	Standardized education category
-Marital_Status	Standardized marital status
-Income	Customer income
-Kidhome	Number of children in household
-Teenhome	Number of teenagers in household
-Dt_Customer	Customer enrollment date
-Recency	Number of days since last purchase
-MntWines	Amount spent on wine
-MntFruits	Amount spent on fruits
-MntMeatProducts	Amount spent on meat products
-MntFishProducts	Amount spent on fish products
-MntSweetProducts	Amount spent on sweets
-MntGoldProds	Amount spent on gold products
-Response	Response to the latest campaign
+Column- 	Description
+ID-	Unique customer identifier
+Year_Birth-	Customer's birth year
+Age-	Customer age calculated from birth year
+Education-	Standardized education category
+Marital_Status-	Standardized marital status
+Income-	Customer income
+Kidhome-	Number of children in household
+Teenhome-	Number of teenagers in household
+Dt_Customer-	Customer enrollment date
+Recency-	Number of days since last purchase
+MntWines-	Amount spent on wine
+MntFruits-	Amount spent on fruits
+MntMeatProducts-	Amount spent on meat products
+MntFishProducts-	Amount spent on fish products
+MntSweetProducts-	Amount spent on sweets
+MntGoldProds-	Amount spent on gold products
+Response-	Response to the latest campaign
 
 This makes the dataset easier for another person to understand.
 
-📊 Before vs After
-Item	Raw Dataset	Cleaned Dataset
-Customer Records	2,240	2,240
-Columns	29	30
-Duplicate IDs	Checked	0
-Age Column	❌	✅
-Education Standardized	❌	✅
-Marital Status Standardized	❌	✅
-Date Format	Inconsistent/raw format	YYYY-MM-DD
-Missing Income	24	24 retained
-Data Dictionary	❌	✅
 🚧 Problems I Faced During the Project
 
 This project was useful because I faced several practical problems rather than simply following a tutorial.
@@ -606,20 +595,6 @@ Widowed
 
 Potential age outliers: 3
 
-📁 Project Structure
-
-The Excel workbook contains:
-
-Customer-Marketing-Campaign/
-│
-├── marketing_campaign
-│   └── Original raw dataset
-│
-├── Cleaned_Data
-│   └── Final cleaned dataset
-│
-└── Data_Dictionary
-    └── Explanation of dataset columns
 💡 What I Learned From This Project
 
 This project helped me understand that data cleaning is much more than deleting blanks and duplicates.
@@ -688,7 +663,3 @@ This project gave me practical experience with one of the most important parts o
 Raw Data → Data Cleaning → Data Validation → Analysis-ready Data
 
 Instead of directly building charts from raw data, I first focused on making sure the underlying dataset was structured, consistent, and understandable.
-
-👨‍💻 Skills Demonstrated
-
-Microsoft Excel Data Cleaning Data Preparation Data Validation Data Quality Excel Formulas Find & Replace Filters Duplicate Checking Date Formatting Data Standardization Data Documentation
